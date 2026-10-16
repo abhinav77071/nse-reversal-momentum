@@ -41,9 +41,15 @@ has shrunk. Yearly mean IC fell from ~0.035 (2016–17) to ~0.01–0.02 (2023–
 edge is now smaller than realistic trading costs: classic alpha decay.
 
 ## Charts
-- `pnl.png`: cumulative PnL of momentum, reversal and blend
-- `smooth_vs_raw.png`: raw vs smoothed reversal (dashed line = test start)
-- `drawdown.png`: blend drawdown
+
+### Raw vs smoothed reversal (10 bps cost, dashed line = test start)
+![Raw vs smoothed reversal](smooth_vs_raw.png)
+
+### Cumulative PnL: momentum, reversal and blend (10 bps cost)
+![Cumulative PnL](pnl.png)
+
+### Blend drawdown
+![Blend drawdown](drawdown.png)
 
 ## Limitations
 - Survivorship bias: universe = current index members
